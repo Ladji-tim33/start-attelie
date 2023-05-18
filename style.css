@@ -1,0 +1,668 @@
+* {
+        padding: 0;
+        margin: 0;
+}
+
+header{
+        background-image: url('img/header.jpg');
+        height: 820px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        clip-path: polygon(0 0, 100% 0, 100% 85% ,0 100% );
+}
+
+.text h2, h1{
+    margin-top: 15%;
+}
+
+.text h2{
+        font-size: 40px;
+}
+
+.text h1{
+        font-size: 90px;
+}
+
+.pose{
+        position: absolute;
+}
+
+.pose h3, h1{
+        margin-bottom: 35%;
+}
+
+.bouge img{
+
+        top: 150%;
+        width: 15%;
+        margin-bottom: 1%;
+        left: 22%;
+      
+}
+
+.bouge2 img{
+       
+        top: 150%;
+        width: 15%;
+        margin-bottom: 2%;
+        left: 47%;
+      
+}
+
+.bouge3 img{
+     
+        width: 15%;
+        margin-bottom: 0%;
+
+      
+}
+
+
+.clone1 {
+        margin-bottom: 20%;
+        
+    }
+
+
+.clone1, .clone2, .clone3{
+        border-top: 1px solid gray;
+        border-left: 1px solid gray;
+        padding-top: 10%;
+        border-right: 1px solid gray;
+        border-bottom: 1px solid gray;
+        height: 100%;
+        text-align: center;
+        padding-bottom: 5%;
+        margin-bottom: 3%;
+}
+
+.image{
+        text-align: center;
+        height: 60vh;
+}
+
+.image img, .image2 img{
+        width: 20%;
+}
+
+
+.div-position{
+        position: relative;
+        bottom: 130px;
+}
+
+.div-dep1 p, .div-dep2 p, .div-dep3 p{
+        visibility: hidden;
+        
+}
+
+.div-ben:hover .div-dep1 p{
+        visibility: visible;
+        z-index: 2;
+}
+
+.div-eva:hover .div-dep2 p{
+        visibility: visible;
+}
+
+.div-jon:hover .div-dep3 p{
+        visibility: visible;
+}
+
+.div-dep1 img{
+        border-radius: 50%;
+        position: relative;
+        top: 215px;
+        z-index: 2;   
+}
+
+.div-dep2 img{
+        border-radius: 50%;
+        position: relative;
+        top: 215px;
+        z-index: 2;
+      
+}
+
+.div-dep3 img{
+        border-radius: 50%;
+        position: relative;
+        top: 215px;
+        z-index: 2;
+}       
+
+.div-team h2{
+      margin-top: 20%;
+}
+
+
+.team{
+        background-color: rgba(178, 174, 174, 0.251);
+}
+
+
+.div-dep1{
+        background-image: url('img/team-cover1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 35vh;
+        margin-bottom: 3%;
+}
+
+.div-dep1::after{
+        position: absolute;
+        content: '';
+        width: 24.7%;
+        height: 35.2%;
+        background-color: rgb(0, 162, 255);
+        z-index: 1;
+        left: 11.6%;
+        top: 206.5%;
+        opacity: 0.7;
+        visibility: hidden;
+}
+
+.div-dep2{
+        background-image: url('img/team-cover2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+     
+        height: 35vh;
+        margin-bottom: 3%;
+}
+
+.div-dep2::after{
+        position: absolute;
+        content: '';
+        width: 24.7%;
+        height: 35.2%;
+        background-color: rgb(0, 162, 255);
+        z-index: 1;
+        left: 37.6%;
+        top: 206.5%;
+        opacity: 0.7;
+        visibility: hidden;
+}
+
+.div-dep3{
+        background-image: url('img/team-cover3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 3%;
+        height: 35vh;
+}
+
+.div-dep3::after{
+        position: absolute;
+        content: '';
+        width: 24.7%;
+        height: 35.2%;
+        background-color: rgb(0, 162, 255);
+        z-index: 1;
+        left: 63.7%;
+        top: 206.5%;
+        opacity: 0.7;
+        visibility: hidden;
+}
+
+
+.div-ben:hover{
+        cursor: pointer;
+}
+
+.div-jon:hover{
+        cursor: pointer;
+}
+
+.div-eva:hover{
+        cursor: pointer;
+}
+
+.div-jon:hover .div-dep3::after{
+        visibility: visible;
+}
+
+.div-eva:hover:hover .div-dep2::after{
+        visibility: visible;
+}
+
+.div-ben:hover .div-dep1::after{
+        visibility: visible;
+}
+.border-div{
+        border: 3px solid rgb(0, 136, 255);
+        padding: 4% 10%;
+        background: none;
+        color: rgb(0, 136, 255);
+        font-size: 20px;
+        margin-bottom: 15%;
+}
+
+.border-div:hover{
+        border: 3px solid rgb(0, 136, 255);
+        padding: 5% 7%;
+        background-color: rgb(0, 136, 255);
+        color: wheat;
+}
+
+.button-div{
+        border: 3px solid white;
+        padding: 7% 10%;
+        background: none;
+        color: white;
+        font-size: 20px;
+        margin-bottom: 5%; 
+}
+
+.button-div:hover{
+        padding: 7% 10%;
+        background-color: white;
+        color: rgb(0, 136, 255);
+}
+
+.precing{
+        background-image: url('img/pricing1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 150vh;
+}
+
+.precing h1{
+        margin-top: 5%;
+}
+
+.div-flot{
+        background-color: rgb(0, 136, 255);
+        margin-right: 8%;  
+        padding: 7% 7%; 
+        margin-top: 5%;
+        display: flex;
+}
+
+.div-cardio{
+        background-color: rgb(162, 156, 156);
+        position: relative;
+        top: 528px;
+        left: 48%;
+        padding: 5% 6%;
+
+}
+
+.ciel{
+        margin-top: 58%;
+        background-color: rgb(0, 136, 255);
+        padding-top: 15%;
+        padding-bottom: 4%;
+}
+
+
+.div-icon {
+        margin-top: 5%;
+}
+
+.div-icon span{
+        font-size: 10px;
+        margin-top: 5%;
+        font-weight: bold;
+        margin-bottom: 3%;
+}
+
+footer{
+        margin-top: 31%;
+        background-image: url('img/footer.jpg');
+        padding-top: 10%;
+}
+
+.icons1 a:hover {
+        color: blue;
+}
+
+.button-div2{
+        
+        border: 3px solid rgb(0, 136, 255);
+        padding: 5% 10%;
+        background: rgb(0, 136, 255);
+        color: white;
+        font-size: 20px;
+  
+}
+
+@media screen and (max-width:1200px) {
+        .pose h3, h1{
+                margin-bottom: 5%;
+                font-size: 15px;
+        }   
+
+        .div-team{
+                flex-wrap: wrap;
+        }
+
+        .ciel{
+                margin-top: 58%;
+                background-color: rgb(0, 136, 255);
+                padding-top: 15%;
+                padding-bottom: 4%;
+        }
+
+        .ciel{
+                margin-top: 245%;
+                background-color: rgb(0, 136, 255);
+                padding-top: 15%;
+                padding-bottom: 4%;
+        }
+
+        .div-cardio{
+                background-color: rgb(162, 156, 156);
+                position: relative;
+                top: 0px;
+                left: 0;
+                padding: 5% 6%;
+                right: 2%;
+        }
+
+        .div-dep1::after{
+        display: none;
+}
+.div-dep2::after{
+       display: none;
+}
+.div-dep3::after{
+        display: none;
+}
+
+
+        .div-flot{
+                background-color: rgb(0, 136, 255);
+                margin-right: 0;  
+                padding: 7% 7%; 
+                margin-top: 5%;
+        }
+}
+
+@media screen and (max-width:490px){
+
+        .div-dep1::after{
+        width: 95.7%;
+        height: 35.2%;
+        left: 2%;
+        top: 300%;
+}
+.div-dep2::after{
+        width: 95.7%;
+        height: 35.2%;
+        left: 2%;
+        top: 370.7%;
+}
+.div-dep3::after{
+        width: 95.7%;
+        height: 35.7%;
+        left: 2%;
+        top: 441%;
+}
+
+        
+        .div-flot{
+                flex-direction: column;
+                display: flex;
+        }
+        .div-dep1 img{
+                border-radius: 50%;
+                position: relative;
+                top: 250px;
+                z-index: 2;   
+        }
+        
+        .div-dep2 img{
+                border-radius: 50%;
+                position: relative;
+                top: 250px;
+                z-index: 2;
+              
+        }
+        
+        .div-dep3 img{
+                border-radius: 50%;
+                position: relative;
+                top: 250px;
+                z-index: 2;
+        } 
+        
+}
+
+@media screen and (max-width:395px){
+        
+
+        .div-dep1::after{
+                width: 95.7%;
+                height: 35.2%;
+                left: 2%;
+                top: 313.5%;
+        }
+        .div-dep2::after{
+                width: 95.7%;
+                height: 35.2%;
+                left: 2%;
+                top: 384.9%;
+        }
+        .div-dep3::after{
+                width: 95.7%;
+                height: 35.7%;
+                left: 2%;
+                top: 456%;
+        }
+        
+
+        .div-dep1 img{
+                border-radius: 50%;
+                position: relative;
+                top: 215px;
+                z-index: 2;   
+        }
+        
+        .div-dep2 img{
+                border-radius: 50%;
+                position: relative;
+                top: 215px;
+                z-index: 2;
+              
+        }
+        
+        .div-dep3 img{
+                border-radius: 50%;
+                position: relative;
+                top: 215px;
+                z-index: 2;
+        } 
+        
+}
+
+@media screen and (max-width:393px){
+        
+
+        .div-dep1::after{
+                width: 95.7%;
+                height: 35.2%;
+                left: 2%;
+                top: 311.9%;
+        }
+        .div-dep2::after{
+                width: 95.7%;
+                height: 35.2%;
+                left: 2%;
+                top: 383.2%;
+        }
+        .div-dep3::after{
+                width: 95.7%;
+                height: 35.7%;
+                left: 2%;
+                top: 454.3%;
+     
+        }
+}
+
+@media screen and (max-width:375px){
+        .div-dep1::after{
+                width: 94%;
+                height: 35.2%;
+                left: 3%;
+                top: 349.6%;
+        }
+        .div-dep2::after{
+                width: 94%;
+                height: 35.2%;
+                left: 3%;
+                top: 424.9%;
+        }
+        .div-dep3::after{
+                width: 94%;
+                height: 35.7%;
+                left: 3%;
+                top: 499%;
+        }
+
+        .div-dep1 img{
+                border-radius: 50%;
+                position: relative;
+                top: 170px;
+                z-index: 2;   
+        }
+        
+        .div-dep2 img{
+                border-radius: 50%;
+                position: relative;
+                top: 170px;
+                z-index: 2;
+              
+        }
+        
+        .div-dep3 img{
+                border-radius: 50%;
+                position: relative;
+                top: 170px;
+                z-index: 2;
+        } 
+
+        .ciel{
+                margin-top: 270%;
+                background-color: rgb(0, 136, 255);
+                padding-top: 15%;
+                padding-bottom: 10%;
+        }
+        .precing{
+                height: 200vh;
+        }
+}
+
+
+
+@media screen and (max-width:365px){
+        
+
+        .div-dep1::after{
+                width: 94%;
+                height: 35.2%;
+                left: 3%;
+                top: 352.9%;
+        }
+        .div-dep2::after{
+                width: 94%;
+                height: 35.2%;
+                left: 3%;
+                top: 427.5%;
+        }
+        .div-dep3::after{
+                width: 94%;
+                height: 35.7%;
+                left: 3%;
+                top: 502%;
+     
+        }
+        .div-dep1 img{
+                border-radius: 50%;
+                position: relative;
+                top: 200px;
+                z-index: 2;   
+        }
+        
+        .div-dep2 img{
+                border-radius: 50%;
+                position: relative;
+                top: 200px;
+                z-index: 2;
+              
+        }
+        
+        .div-dep3 img{
+                border-radius: 50%;
+                position: relative;
+                top: 200px;
+                z-index: 2;
+        } 
+        
+        .ciel{
+                margin-top: 320%;
+                background-color: rgb(0, 136, 255);
+                padding-top: 15%;
+                padding-bottom: 10%;
+        }
+        .precing{
+                height: 200vh;
+        }
+}
+
+@media screen and (max-width:285px){
+        .ciel{
+                margin-top: 320%;
+                background-color: rgb(0, 136, 255);
+                padding-top: 15%;
+                padding-bottom: 10%;
+        }
+        .precing{
+                height: 200vh;
+        }
+}
+
+@media screen and (max-width:285px){
+        
+        .precing{
+                height: 200vh;
+        }
+        .div-dep1 img{
+                border-radius: 50%;
+                position: relative;
+                top: 150px;
+                z-index: 2;   
+        }
+        
+        .div-dep2 img{
+                border-radius: 50%;
+                position: relative;
+                top: 150px;
+                z-index: 2;
+              
+        }
+        
+        .div-dep3 img{
+                border-radius: 50%;
+                position: relative;
+                top: 150px;
+                z-index: 2;
+        } 
+
+        .ciel{
+                margin-top: 335%;
+                background-color: rgb(0, 136, 255);
+                padding-top: 15%;
+                padding-bottom: 4%;
+        }
+        
+}
+
+
+
+
+
+/* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assiet/image/banniere5.jpg') center center fixed no-repeat;
+        height: 1900px;
+        background-size: cover; */
